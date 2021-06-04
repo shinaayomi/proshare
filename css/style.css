@@ -179,7 +179,7 @@ footer input::after {
     position: absolute;
     right: 0;
     background-color: #4525FF;
-    width: 20px%;
+    width: 20px;
     height: 100%;
 }
 
