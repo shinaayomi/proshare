@@ -1,0 +1,191 @@
+.big_weight,
+th {
+    font-weight: 800;
+}
+
+
+/* Line 1*/
+
+header,
+.smaller {
+    font-size: 11px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.ads {
+    position: relative;
+}
+
+.header-bar {
+    background-color: #1E1E2E;
+    width: 100%;
+    position: absolute;
+    top: 260px;
+}
+
+.nav-link,
+.grey_text {
+    color: rgb(126, 126, 126);
+}
+
+header span {
+    vertical-align: middle;
+    margin-left: 3px;
+}
+
+
+/* Line 2 */
+
+.header-lower {
+    background-color: #E5E5E5;
+    font-weight: 500;
+}
+
+.bottom-line {
+    border-bottom: 2px solid #1E1E2E;
+}
+
+.proshare {
+    font-size: 27px;
+}
+
+.subscribe_btn {
+    background-color: #4525FF;
+    color: #fff;
+}
+
+.purple_text {
+    color: #4525FF;
+}
+
+
+/* Line 3 */
+
+.indices {
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.indices a {
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+    font-size: 12px;
+    margin: 10px 10px 0 10px;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+}
+
+.red_text {
+    color: #FF2E5B;
+}
+
+.green_text {
+    color: #00AD82;
+}
+
+.dark_gray {
+    color: #666676;
+}
+
+.gray_bg {
+    background-color: #F4F4F6;
+}
+
+.black_bg {
+    background-color: #1E1E2E;
+}
+
+.light_gray {
+    color: #C2C2CC;
+}
+
+
+/* Line 4 */
+
+.stock_ticker {
+    background-color: #F4F4F6;
+    position: relative;
+}
+
+.stock_ticker .btn {
+    border: 1px solid #666676;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.stock_ticker p {
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+.stock_ticker a {
+    font-size: 12px;
+    color: #1E1E2E;
+}
+
+
+/* Right-Side Overflow-y */
+
+.calendar {
+    overflow-y: auto;
+    height: 230px;
+}
+
+.blue_btn {
+    background-color: #0085FF;
+    color: #fff;
+    margin-bottom: 7px;
+}
+
+.green_btn {
+    background-color: #00AD82;
+    color: #fff;
+    margin-bottom: 7px;
+}
+
+.orange_btn {
+    background-color: #FFA332;
+    color: #fff;
+    margin-bottom: 7px;
+}
+
+.red_btn {
+    background-color: #FF6644;
+    color: #fff;
+    margin-bottom: 7px;
+}
+
+.canada::before {
+    content: url("/icon/Group\ 32.svg");
+    position: absolute;
+    left: 0;
+    margin-top: 6px;
+}
+
+footer input {
+    border: none;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+footer input::after {
+    content: url("/icon/Arrow\ Right\ 3.svg");
+    position: absolute;
+    right: 0;
+    background-color: #4525FF;
+    width: 20px%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .ads,
+    .header-bar {
+        position: static;
+    }
+}
