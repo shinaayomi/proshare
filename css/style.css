@@ -174,15 +174,6 @@ footer input {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-footer input::after {
-    content: url("/icon/Arrow\ Right\ 3.svg");
-    position: absolute;
-    right: 0;
-    background-color: #4525FF;
-    width: 20px;
-    height: 100%;
-}
-
 @media (max-width: 768px) {
     .ads,
     .header-bar {
